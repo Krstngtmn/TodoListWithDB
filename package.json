@@ -1,7 +1,6 @@
 {
   "name": "todolistforgithub",
   "version": "1.0.0",
-  "description": "",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +9,23 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "axios": "^0.27.2",
     "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.18.1",
     "mongoose": "^6.3.1",
-    "nodemon": "^2.0.16"
-  }
+    "nodemon": "^2.0.16",
+    "react-router-dom": "^6.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krstngtmn/TodoListWithDB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Krstngtmn/TodoListWithDB/issues"
+  },
+  "homepage": "https://github.com/Krstngtmn/TodoListWithDB#readme",
+  "description": ""
 }
